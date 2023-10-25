@@ -1,0 +1,12 @@
+import { jsxs as _jsxs, jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import useAppContext from "../utils/Maincontext";
+const Overlay = () => {
+    // Access state and functions from the context
+    const { overlayHandler, random, exercises, setExercisesHandler } = useAppContext();
+    return (_jsxs("div", { className: "fixed top-4 left-4 right-4 bottom-4 w-[calc(100vw - 16*2px)] h-[calc(100vh - 16*2px)] bg-black text-white z-[999999999] rounded-lg overflow-y-auto flex flex-col items-center", children: [_jsxs("button", { className: "absolute top-5 right-5 py-2 px-4 bg-red-400 hover-bg-red-700 transition-all duration-300 text-white rounded-full", onClick: () => {
+                    overlayHandler();
+                    setExercisesHandler([]); // Clear exercise suggestions
+                }, children: [" ", "X", " "] }), exercises.length > 0 ? (_jsxs(_Fragment, { children: [_jsx("h1", { className: "text-3xl border-b-4 border-yellow-400 pb-2 mt-16 lg:mt-0 text-center", children: "Our coach suggestions for your session" }), exercises.map((exercise, index) => (_jsxs("div", { className: "text-white w-full text-center mb-24 flex flex-col items-center", children: [_jsxs("h1", { className: "mb-2 text-xl", children: ["Name of the exercise: ", _jsx("span", { className: "font-semibold text-yellow-500 uppercase", children: exercise.name })] }), _jsxs("h1", { className: "mb-2 text-xl", children: ["This muscle will be used: ", _jsx("span", { className: "text-red-400 uppercase font-semibold", children: exercise.muscle })] }), _jsxs("h1", { className: "mb-2 text-xl", children: ["These equipment you need: ", _jsx("span", { className: "text-yellow-500 font-semibold uppercase", children: exercise.equipment })] }), _jsxs("h1", { className: "mb-2 text-xl", children: ["How hard is the exercise: ", _jsx("span", { className: "text-red-400 font-semibold uppercase", children: exercise.difficulty })] }), _jsx("h1", { className: "mb-2 text-xl pb-2", children: "Small instructions from the exercise" }), _jsx("p", { className: "px-6 lg:px-20 mb-4", children: exercise.instructions }), _jsx("a", { href: `https://www.youtube.com/results?search_query=${exercise.name.replace(/\s/g, '+')}`, className: "text-red-400 py-4 px-3 rounded-lg border-red-400 border hover-bg-red-400 hover-text-black transition-all duration-300", children: "Look for some video of this exercise" })] }, index)))] })) :
+                _jsx("div", { className: "text-white", children: "Hello" })] }));
+};
+export default Overlay;
