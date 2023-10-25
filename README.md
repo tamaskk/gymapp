@@ -1,6 +1,6 @@
 ![Screenshot 1](/src/assets/screenshots_and_logo/logo.png)
 
-# Fitness websute
+# Fitness website
 
 ## Project Overview
 
