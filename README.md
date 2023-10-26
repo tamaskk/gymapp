@@ -1,46 +1,95 @@
-# Getting Started with Create React App
+![Screenshot 1](/src/assets/screenshots_and_logo/logo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Fitness website
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This project is a fitness website that provides users with information and services related to fitness and gym activities. It offers various sections, including Home, About, Courses, Trainers, Contact, Testimonials, and more. The website serves as a platform for users to explore fitness services, learn about available courses, meet the coaches, and get in touch.
 
-### `npm start`
+## Made with
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- Typescript
+- TailwindCSS
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+To run the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/tamaskk/gymapp.git`
+2. Navigate to the project directory: `cd gymapp`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your web browser and visit `http://localhost:3000`
 
-### `npm run build`
+## Sections
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Header
+- Attractive Banner
+- Call-to-Action Buttons
+- Memorable Tagline
+- Join Us and Our Services
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### About
 
-### `npm run eject`
+- Introduction to Fitness
+- Description of Fitness Services
+- Engaging Content
+- Compelling Images
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Courses
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- List of Available Courses
+- Course Details
+- Course Images
+- Information about Each Course
+- Yearly Membership Banner
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Trainers
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Presentation of Fitness Coaches
+- Images and Descriptions of Coaches
+- Random Exercise Generation on Coach Image Click
 
-## Learn More
+### Testimonials
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Testimonials from Generated Customers
+- Quotes from Satisfied Users
+- Trustworthy and Engaging Feedback
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Contact
+
+- Contact Information
+- User-Friendly Contact Form
+- Integrated Map
+- Get in Touch
+
+### Contact
+
+- Footer Section with Contact Details
+- Quick Links
+- Newsletter Subscription
+- Copyright Information
+
+## Contributing
+
+If you'd like to contribute to the project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m 'Added feature-name'`
+4. Push to the branch: `git push origin feature-name`
+5. Create a pull request.
+
+## Screenshots
+
+![Screenshot 1](/src/assets/screenshots_and_logo/1.png)
+![Screenshot 2](/src/assets/screenshots_and_logo/2.png)
+![Screenshot 3](/src/assets/screenshots_and_logo/3.png)
+![Screenshot 4](/src/assets/screenshots_and_logo/4.png)
+![Screenshot 5](/src/assets/screenshots_and_logo/5.png)
+![Screenshot 6](/src/assets/screenshots_and_logo/6.png)
+![Screenshot 7](/src/assets/screenshots_and_logo/7.png)
+![Screenshot 8](/src/assets/screenshots_and_logo/8.png)
