@@ -6,7 +6,7 @@ const Overlay: React.FC = () => {
   const { overlayHandler, random, exercises, setExercisesHandler } = useAppContext();
 
   return (
-    <div className="fixed top-4 left-4 right-4 bottom-4 w-[calc(100vw - 16*2px)] h-[calc(100vh - 16*2px)] bg-black text-white z-[999999999] rounded-lg overflow-y-auto flex flex-col items-center">
+    <div className="fixed top-4 left-4 right-4 bottom-4 w-[calc(100vw - 16*2px)] h-[calc(100vh - 16*2px)] p-4 bg-black text-white z-[999999999] rounded-lg overflow-y-auto flex flex-col items-center">
       {/* Close button */}
       <button
         className="absolute top-5 right-5 py-2 px-4 bg-red-400 hover-bg-red-700 transition-all duration-300 text-white rounded-full"
