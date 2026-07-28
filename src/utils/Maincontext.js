@@ -19,7 +19,6 @@ export function AppProvider({ children }) {
     const [exercises, setExercises] = useState([]);
     const [exerciseType, setExerciseType] = useState("");
     // API-related variables
-    const apiKey = "u00dAfMrgCsaPQ66D1yvOg==vRynVHjLDjBHFKep";
     const apiUrl = `https://api.api-ninjas.com/v1/exercises?type=${exerciseType}`;
     // Fetch exercise data from an API
     useEffect(() => {
